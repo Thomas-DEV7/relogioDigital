@@ -20,6 +20,13 @@ body{
     background-color: transparent;
     border-radius: 5px;
     box-shadow: 0 8px 10px #000005;
+    flex-wrap: wrap;
+}
+@media (max-width: 792px) {
+    .relogio{
+        height: 400px;
+        width: 90%;
+    }
 }
 .relogio div{
     height: 170px;
